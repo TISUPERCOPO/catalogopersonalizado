@@ -8,7 +8,6 @@ import { HeaderRouting } from "./header.routing";
 
 @NgModule({
 declarations: [
-  HeaderComponent
 ],
 imports: [
   MaterialModule,
