@@ -1,0 +1,14 @@
+.card {
+  margin: 10px;
+}
+
+span {
+  text-align: center;
+    font-size: 10px;
+    font-weight: bolder;
+    display: block;
+}
+
+.img {
+  border: solid 1px red;
+}

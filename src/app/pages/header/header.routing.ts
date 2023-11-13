@@ -4,7 +4,7 @@ import { HeaderComponent } from "./header.component";
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'header',
     component: HeaderComponent
   }
 ]

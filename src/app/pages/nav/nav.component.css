@@ -4,5 +4,6 @@
 }
 
 .sidenav {
+  top: -100px;
   background-color: #ff6600;
 }

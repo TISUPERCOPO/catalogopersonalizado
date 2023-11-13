@@ -9,12 +9,18 @@ import { HeaderModule } from './pages/header/header.module';
 import { NavModule } from './pages/nav/nav.module';
 import { NavComponent } from './pages/nav/nav.component';
 import { HeaderComponent } from './pages/header/header.component';
+import { PageHomeComponent } from './pages/home/page-home/page-home.component';
+import { PageHomeModule } from './pages/home/page-home/page-home.module';
+import { CatalogoModule } from './pages/catalogo/catalogo.module';
+import { CatalogoComponent } from './pages/catalogo/catalogo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
+    PageHomeComponent ,
+    CatalogoComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +28,9 @@ import { HeaderComponent } from './pages/header/header.component';
     BrowserAnimationsModule,
     MaterialModule,
     HeaderModule,
-    NavModule
+    NavModule,
+    PageHomeModule,
+    CatalogoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

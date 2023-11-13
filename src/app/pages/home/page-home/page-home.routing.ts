@@ -1,11 +1,12 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { NavComponent } from "./nav.component";
+import { PageHomeComponent } from "./page-home.component";
+
 
 const routes: Routes = [
   {
-    path: 'nav',
-    component: NavComponent
+    path: '',
+    component: PageHomeComponent
   }
 ]
 
@@ -18,4 +19,5 @@ const routes: Routes = [
   ]
 })
 
-export class NavRouting {}
+
+export class PageHomeRouting {}
