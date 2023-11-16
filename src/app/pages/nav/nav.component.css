@@ -1,9 +1,11 @@
 .sub-list {
-  top: 0;
   width: 130px;
 }
 
+.sub-list i {
+margin-right: 5px;
+}
+
 .sidenav {
-  top: -100px;
   background-color: #ff6600;
 }

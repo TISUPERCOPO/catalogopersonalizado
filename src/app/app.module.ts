@@ -13,6 +13,7 @@ import { PageHomeComponent } from './pages/home/page-home/page-home.component';
 import { PageHomeModule } from './pages/home/page-home/page-home.module';
 import { CatalogoModule } from './pages/catalogo/catalogo.module';
 import { CatalogoComponent } from './pages/catalogo/catalogo.component';
+import { ContatoComponent } from './pages/contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CatalogoComponent } from './pages/catalogo/catalogo.component';
     HeaderComponent,
     NavComponent,
     PageHomeComponent ,
-    CatalogoComponent
+    CatalogoComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,

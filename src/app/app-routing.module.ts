@@ -11,8 +11,12 @@ const routes: Routes = [
     loadChildren: () => import('./pages/nav/nav.module').then(n => n.NavModule)
   },
   {
-    path: 'catalogo',
+    path: 'catalogos',
     loadChildren: () => import('./pages/catalogo/catalogo.module').then(c => c.CatalogoModule)
+  },
+  {
+    path: 'contatos',
+    loadChildren: () => import('./pages/contato/contato.module').then(c => c.ContatoModule)
   },
 ];
 

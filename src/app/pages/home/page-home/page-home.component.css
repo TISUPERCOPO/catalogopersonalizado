@@ -6,6 +6,17 @@
 }
 
 .title {
-  border: solid 1px red;
+  font-weight: bold;
   padding: 10px;
+}
+
+
+
+.mat-mdc-card {
+  margin-top: 70px;
+}
+
+p{
+  font-weight: 400;
+  margin: 10px;
 }
