@@ -15,6 +15,9 @@ import { CatalogoModule } from './pages/catalogo/catalogo.module';
 import { CatalogoComponent } from './pages/catalogo/catalogo.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 
+import { CarouselModule } from 'primeng/carousel';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +35,8 @@ import { ContatoComponent } from './pages/contato/contato.component';
     HeaderModule,
     NavModule,
     PageHomeModule,
-    CatalogoModule
+    CatalogoModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

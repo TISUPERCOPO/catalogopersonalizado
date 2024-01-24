@@ -14,3 +14,76 @@ padding-left: 15px;
 padding-right: 5px;
 vertical-align: middle;
 }
+
+
+.card-adjust {
+  min-height: 89vh;
+  margin-top: 2rem;
+  margin-right: 0.625rem;
+  margin-left: 0.625rem;
+}
+
+.p-carousel-prev, .p-carousel-next {
+  padding: 10px;
+  margin: 5px;
+  background: rgba(245, 133, 6, 0.067);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.p-carousel-prev:hover, .p-carousel-next:hover {
+  background: rgba(245, 133, 6, 0.753);
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: #3B82F6;
+}
+
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background: #EFF6FF;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background: #0370ff;
+  color: #1D4ED8;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+  background-color: #d1d5db;
+  width: 2rem;
+  height: 0.5rem;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  border-radius: 0;
+  margin: 5px;
+}
+
+.p-carousel-indicator>button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.p-link {
+  text-align: left;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.p-link {
+  font-family: var(--font-family);
+  font-feature-settings: var(--font-feature-settings, normal);
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+.p-carousel-indicator {
+  list-style: none;
+
+}

@@ -1,10 +1,10 @@
 <main>
-  <mat-card class="home mat-elevantion-z4">
+  <mat-card class="card-adjust home mat-elevantion-z4">
     <div class="grid flex justify-content-center">
-      <div class="flex justify-content-center col-12 mb:col-6 lg:col-3">
+      <div class="flex justify-content-center col-12 mb:col-6 lg:col-3 w-full">
         <h2 class="title">Bem-vindo ao Catalogo Personalizado</h2>
       </div>
-      <div class="col-12 mb:col-6 lb:col-3 flex align-items-center m-3 ">
+      <div class="texto col-12 mb:col-6 lb:col-3 flex align-items-center m-3 ">
         <p>Seja bem-vindo à nossa página! Estamos imensamente felizes por sua
           presença aqui.
           Para explorar os nossos produtos, basta clicar na aba "Catálogos" no
@@ -19,16 +19,17 @@
     </div>
     <div class=" grid flex justify-content-center">
 
-      <div class="col-12 mb:col-6 lg:col-3 p-fluid">
-       <h1>Super Copo</h1>
+      <div class="col-12 mb:col-6 lg:col-3 w-full">
+        <img src="assets/img/Logo - original.png" alt="" width="100">
         <div class="flex justify-content-center">
+          <p-carousel styleClass="custom-carousel" [value]="images"  [numVisible]="3" [numScroll]="3" [circular]="true" [responsiveOptions]="responsiveOptions" [autoplayInterval]="5000">
+            <ng-template pTemplate="header">
+            </ng-template>
+            <ng-template let-image pTemplate="item">
+              <img [src]="'assets/images/' + image" alt="Slide {{image}}">
+            </ng-template>
+          </p-carousel>
 
-<!--           <div class="flex flex-wrap aling-items-center" >
-            <a href="/catalogos" target="_blank">
-              <img src="assets/img/tela.jpeg" alt="" class="max-h-0 sm:max-h-full">
-            </a>
-
-          </div> -->
         </div>
       </div>
 
@@ -39,3 +40,6 @@
     </div>
   </mat-card>
 </main>
+
+
+
