@@ -56,7 +56,7 @@ margin-bottom: 20px;
 /* carousel.component.css */
 p-carousel img {
   max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-  max-height: 300px; /* Ajuste conforme necessário */
+  max-height: 200px; /* Ajuste conforme necessário */
   display: block;
   margin: 0 auto; /* Centralizar a imagem */
 }
