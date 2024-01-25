@@ -3,16 +3,28 @@
 
 }
 
-span {
+/* span {
   text-align: center;
     font-size: 12px;
     font-weight: bolder;
     display: block;
-}
+} */
 
 
 
 
 .mat-mdc-card {
   margin-top: 70px;
+}
+
+
+h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  margin: 0 auto;
 }
