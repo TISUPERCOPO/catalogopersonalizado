@@ -59,6 +59,9 @@ p-carousel img {
   max-height: 200px; /* Ajuste conforme necessário */
   display: block;
   margin: 0 auto; /* Centralizar a imagem */
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 7px 11px 5px 0px rgba(0,0,0,0.75);
 }
 
 
