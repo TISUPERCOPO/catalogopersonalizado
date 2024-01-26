@@ -10,16 +10,15 @@ export class PageHomeComponent implements OnInit{
 
   images =
   [
-    'CANECA FAMILIA E TUDO IGUAL.png',
-    'COPO ECO 250 EDITADO.png',
-    'COPO ECO 400 EDITADA.png',
-    'ECO 600.png',
-    'KIT 3 EDITADO.jpg',
-    'LONG PRETO FOSCO.png',
-    'Moscow Mule (2).png',
-    'SHOT.png',
-    'TAÇA GIN METALIZADA.png',
-    'TAÇA VINHO.png',
+    'LABEL E TIRANTE.png',
+    'LABEL J&M.png',
+    'LABEL SUMMER 3.png',
+    'LABEL SUMMER 5.png',
+    'LABEL SUMMER 7.png',
+    'LABEL SUMMER 8.png',
+    'TIRANTE.png',
+    'personalizado-3.png',
+    'personalizado-10.png',
 
 
 
