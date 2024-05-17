@@ -17,6 +17,16 @@ import { ContatoComponent } from './pages/contato/contato.component';
 
 import { CarouselModule } from 'primeng/carousel';
 
+import { TranslateModule, TranslateLoader, TranslateService } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { DropdownModule } from 'primeng/dropdown';
+import { FormsModule } from '@angular/forms';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
+
 
 @NgModule({
   declarations: [
@@ -36,9 +46,25 @@ import { CarouselModule } from 'primeng/carousel';
     NavModule,
     PageHomeModule,
     CatalogoModule,
-    CarouselModule
+    CarouselModule,
+    HttpClientModule,
+    DropdownModule,
+    FormsModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'pt',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private translate: TranslateService) {
+    translate.setDefaultLang('pt');
+    translate.use('pt');
+  }
+}

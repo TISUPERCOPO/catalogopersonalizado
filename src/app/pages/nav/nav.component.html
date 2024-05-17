@@ -3,20 +3,23 @@
     <mat-sidenav class="sidenav flex justify-content-start" mode="side" opened
       fixedInViewport="true" fixedTopGap="62" >
       <mat-nav-list class="sub-list">
-        <a mat-list-item routerLink="">
+        <a mat-list-item routerLink="" translate>
           <i class="fi fi-br-house-chimney"></i>
           <span>Inicio</span>
         </a>
-        <a mat-list-item routerLink="/catalogos">
+        <a mat-list-item routerLink="/catalogos" translate>
           <i class="fi fi-ss-book-open-cover"></i>
           <span>Catalogo</span>
         </a>
-        <a mat-list-item routerLink="/contatos">
+        <a mat-list-item routerLink="/contatos" >
           <i class="fi fi-sr-circle-phone-hangup"></i>
           <span>Contato</span>
         </a>
-      </mat-nav-list>
 
+
+
+
+      </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content class="content">
       <router-outlet></router-outlet>
