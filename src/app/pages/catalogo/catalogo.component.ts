@@ -34,7 +34,7 @@ export class CatalogoComponent implements OnInit {
     { name: 'TAÇA LIGHT', link: 'https://drive.google.com/file/d/15fek2dgogD4L636043pDJeT5D5ySYCXC/view?usp=sharing', img: 'assets/img/TAÇA LIGHT.png' },
     { name: 'TWISTER', link: 'https://drive.google.com/file/d/1k7Z26mEvBVNfm1pO6arf613hi3-VtX2y/view?usp=drive_link', img: 'assets/img/TWISTER.png' },
     { name: 'WHISKY', link: 'https://drive.google.com/file/d/1k96pJ4tDaSmaUvNumDxvOqy3p61uS4A1/view?usp=drive_link', img: 'assets/img/WHISKY.png' },
-    { name: '', link: '', img: '' },
+    { name: 'COPO STYLE', link: 'https://drive.google.com/file/d/1Up_jld5npzTLbNq6ooC6-RT2uYx79Bg0/view?usp=sharing', img: 'assets/img/COPO STYLE.png' },
     { name: '', link: '', img: '' },
     { name: '', link: '', img: '' },
   ];
