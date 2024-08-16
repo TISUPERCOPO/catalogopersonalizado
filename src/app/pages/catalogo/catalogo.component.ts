@@ -20,6 +20,7 @@ export class CatalogoComponent implements OnInit {
     { name: 'CANECA SLIM', link: 'https://drive.google.com/file/d/1jTCtNQJ-HS8FM0xc_bJ8FkOrnIfLN6tv/view?usp=drive_link', img: 'assets/img/CANECA SLIM.png' },
     { name: 'CANECAS 300 E 500ML', link: 'https://drive.google.com/file/d/1jR2QGI3rbT7OBRME-93o5KIeLfVqnj1U/view?usp=drive_link', img: 'assets/img/CANECA 300 E 500.png' },
     { name: 'CANECA MOSCOW MULE', link: 'https://drive.google.com/file/d/1jdgKYvSjJLJ2ErHXT1rafIBLedODIZbK/view?usp=drive_link', img: 'assets/img/MOSCOW MULE.png' },
+    { name: 'COPO STYLE', link: 'https://drive.google.com/file/d/1Up_jld5npzTLbNq6ooC6-RT2uYx79Bg0/view?usp=sharing', img: 'assets/img/COPO STYLE.png' },
     { name: 'DRAFT', link: 'https://drive.google.com/file/d/1jZO_-SQsW6efOG_gNNqA5_hoMhWkdHOb/view?usp=drive_link', img: 'assets/img/DRAFT.png' },
     { name: 'LINHA ECO', link: 'https://drive.google.com/file/d/1kJtcQobyM-GhOzpnM9A-rkvN6vn6X6uX/view?usp=drive_link', img: 'assets/img/LINHA ECO.png' },
     { name: 'LONG PREMIUM -  LIGHT - FIT', link: 'https://drive.google.com/file/d/1jc1rCcgJvVO5Ejyp8pGqG0RNQftENoLS/view?usp=drive_link', img: 'assets/img/LONG DRINK.png' },
@@ -34,7 +35,7 @@ export class CatalogoComponent implements OnInit {
     { name: 'TAÇA LIGHT', link: 'https://drive.google.com/file/d/15fek2dgogD4L636043pDJeT5D5ySYCXC/view?usp=sharing', img: 'assets/img/TAÇA LIGHT.png' },
     { name: 'TWISTER', link: 'https://drive.google.com/file/d/1k7Z26mEvBVNfm1pO6arf613hi3-VtX2y/view?usp=drive_link', img: 'assets/img/TWISTER.png' },
     { name: 'WHISKY', link: 'https://drive.google.com/file/d/1k96pJ4tDaSmaUvNumDxvOqy3p61uS4A1/view?usp=drive_link', img: 'assets/img/WHISKY.png' },
-    { name: 'COPO STYLE', link: 'https://drive.google.com/file/d/1Up_jld5npzTLbNq6ooC6-RT2uYx79Bg0/view?usp=sharing', img: 'assets/img/COPO STYLE.png' },
+    { name: '', link: '', img: '' },
     { name: '', link: '', img: '' },
     { name: '', link: '', img: '' },
   ];
